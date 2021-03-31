@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HJFullScreen_Example' do
+  pod 'HJFullScreen', :path => '../'
+
+  target 'HJFullScreen_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
