@@ -39,7 +39,7 @@ pod 'HJFullScreen'
 
 ## Author
 
-keithmorning, xiaofeng.xi@net263.com
+keithmorning,
 
 ## License
 
