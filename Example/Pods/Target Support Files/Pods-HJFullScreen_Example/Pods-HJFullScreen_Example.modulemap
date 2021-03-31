@@ -1,0 +1,6 @@
+module Pods_HJFullScreen_Example {
+  umbrella header "Pods-HJFullScreen_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

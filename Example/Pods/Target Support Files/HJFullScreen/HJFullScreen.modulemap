@@ -1,0 +1,6 @@
+module HJFullScreen {
+  umbrella header "HJFullScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

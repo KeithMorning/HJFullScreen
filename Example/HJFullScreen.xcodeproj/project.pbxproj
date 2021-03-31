@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4050769DF77B455F00B3D999 /* Pods_HJFullScreen_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287BE07C01AE8FF4AD9C909F /* Pods_HJFullScreen_Tests.framework */; };
+		5A0775471EECAEFD61039BCD /* libPods-HJFullScreen_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF376A5AC2241115B9EE912 /* libPods-HJFullScreen_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6847C54E20E7C2AE84472724 /* Pods_HJFullScreen_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55891500E7221B951A5E2986 /* Pods_HJFullScreen_Example.framework */; };
+		7F0FE6CA26147486003CE978 /* CustomFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FE6C926147486003CE978 /* CustomFullViewController.swift */; };
+		CE01B2A4A705B55C350B305A /* libPods-HJFullScreen_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61A97CE95E3B6FA7EA1B8D76 /* libPods-HJFullScreen_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +30,8 @@
 
 /* Begin PBXFileReference section */
 		1D0A55EF5E56899B84A4AD17 /* Pods-HJFullScreen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJFullScreen_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HJFullScreen_Tests/Pods-HJFullScreen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		287BE07C01AE8FF4AD9C909F /* Pods_HJFullScreen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJFullScreen_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF376A5AC2241115B9EE912 /* libPods-HJFullScreen_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJFullScreen_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3511915E3210BADF52CD479E /* Pods-HJFullScreen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJFullScreen_Tests.release.xcconfig"; path = "Target Support Files/Pods-HJFullScreen_Tests/Pods-HJFullScreen_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		55891500E7221B951A5E2986 /* Pods_HJFullScreen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJFullScreen_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* HJFullScreen_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJFullScreen_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +42,12 @@
 		607FACE51AFB9204008FA782 /* HJFullScreen_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJFullScreen_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		61A97CE95E3B6FA7EA1B8D76 /* libPods-HJFullScreen_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJFullScreen_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E8313E22B1B75F993A1293 /* Pods-HJFullScreen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJFullScreen_Example.debug.xcconfig"; path = "Target Support Files/Pods-HJFullScreen_Example/Pods-HJFullScreen_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6FB424DCB5647556E5D53165 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		70B953FB0CF9CBE9D06ABEC1 /* HJFullScreen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HJFullScreen.podspec; path = ../HJFullScreen.podspec; sourceTree = "<group>"; };
-		7E4B9BC23BC334BA144A97B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6FB424DCB5647556E5D53165 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		70B953FB0CF9CBE9D06ABEC1 /* HJFullScreen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HJFullScreen.podspec; path = ../HJFullScreen.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E4B9BC23BC334BA144A97B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7F0FE6C926147486003CE978 /* CustomFullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFullViewController.swift; sourceTree = "<group>"; };
 		D8D26B5E12CCC03FBD300F11 /* Pods-HJFullScreen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJFullScreen_Example.release.xcconfig"; path = "Target Support Files/Pods-HJFullScreen_Example/Pods-HJFullScreen_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6847C54E20E7C2AE84472724 /* Pods_HJFullScreen_Example.framework in Frameworks */,
+				CE01B2A4A705B55C350B305A /* libPods-HJFullScreen_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4050769DF77B455F00B3D999 /* Pods_HJFullScreen_Tests.framework in Frameworks */,
+				5A0775471EECAEFD61039BCD /* libPods-HJFullScreen_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +74,8 @@
 		1D5FE7726A27C8CA56A80F4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				55891500E7221B951A5E2986 /* Pods_HJFullScreen_Example.framework */,
-				287BE07C01AE8FF4AD9C909F /* Pods_HJFullScreen_Tests.framework */,
+				61A97CE95E3B6FA7EA1B8D76 /* libPods-HJFullScreen_Example.a */,
+				2CF376A5AC2241115B9EE912 /* libPods-HJFullScreen_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				7F0FE6C926147486003CE978 /* CustomFullViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -156,7 +159,6 @@
 				1D0A55EF5E56899B84A4AD17 /* Pods-HJFullScreen_Tests.debug.xcconfig */,
 				3511915E3210BADF52CD479E /* Pods-HJFullScreen_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +173,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				C3CA990BA1BA0DF35B711C93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,10 +214,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 29HA8N9RQ5;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 29HA8N9RQ5;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -306,24 +310,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C3CA990BA1BA0DF35B711C93 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HJFullScreen_Example/Pods-HJFullScreen_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HJFullScreen/HJFullScreen.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HJFullScreen.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HJFullScreen_Example/Pods-HJFullScreen_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -332,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				7F0FE6CA26147486003CE978 /* CustomFullViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,7 +465,9 @@
 			baseConfigurationReference = 64E8313E22B1B75F993A1293 /* Pods-HJFullScreen_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				INFOPLIST_FILE = HJFullScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +482,9 @@
 			baseConfigurationReference = D8D26B5E12CCC03FBD300F11 /* Pods-HJFullScreen_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				INFOPLIST_FILE = HJFullScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D0A55EF5E56899B84A4AD17 /* Pods-HJFullScreen_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +521,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3511915E3210BADF52CD479E /* Pods-HJFullScreen_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

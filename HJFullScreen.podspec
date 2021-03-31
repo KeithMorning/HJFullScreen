@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'HJFullScreen'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HJFullScreen.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'HJFullScreen use a container view make a fullscreen action, write by swift'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+It is use a container view to make fullscreen easy to use. You can cusom a show viewcontroller make its support interface Orientation, add the view will be fullscreen in the container, then present it.
                        DESC
 
   s.homepage         = 'https://github.com/keithmorning/HJFullScreen'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'keithmorning' => 'xiaofeng.xi@net263.com' }
+  s.author           = { 'keithmorning' => 'keith.objc@gmail.com' }
   s.source           = { :git => 'https://github.com/keithmorning/HJFullScreen.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'HJFullScreen/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HJFullScreen' => ['HJFullScreen/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

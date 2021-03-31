@@ -9,6 +9,23 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+It  can be easy to use as follow 
+
+```
+lazy var movePlayerView = MoviePlayerView()
+lazy var contentView:HJFullViewContainer = {
+    let view = HJFullViewContainer(content: self.movePlayerView)
+    return view
+}()
+
+self.view.addSubview(contentView)
+
+let vc = CustomViewController() //neet override the supportedInterfaceOrientations as [.landscapeRight,.landscapeLeft]
+
+/// full screen
+self.contentView.fullScreen(fullScreenVc: fullscreenVc) {} 
+```
+
 ## Requirements
 
 ## Installation

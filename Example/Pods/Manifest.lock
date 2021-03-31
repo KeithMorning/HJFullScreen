@@ -1,0 +1,16 @@
+PODS:
+  - HJFullScreen (0.1.0)
+
+DEPENDENCIES:
+  - HJFullScreen (from `../`)
+
+EXTERNAL SOURCES:
+  HJFullScreen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HJFullScreen: 2be135df1b69554c116d6384cca9aabd7f0cc0f9
+
+PODFILE CHECKSUM: 1e2175ac0fe1b97de99de18a6865de2d9e7313c6
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BACC2FD9944AA9DE4BAB82AF3D203DB /* Pods-HJFullScreen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B5B13FD8EC5A6538D0FDFEA3CEDE39 /* Pods-HJFullScreen_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43A6CF03F351CF85A12EA2F33FC4D4C8 /* HJFullContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B230296E2BEB2867F219178A048F09C2 /* HJFullContentViewController.swift */; };
+		43F0FBE5D74414F1FF9834CE50DB2D67 /* Pods-HJFullScreen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4AAC4FDF8F575621E73BAE30789F08 /* Pods-HJFullScreen_Example-dummy.m */; };
+		6920F1622FD526CA66D0C353D05A8ABD /* HJFullAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7CA2FB66AA9991DBD4C36BD39F5E3 /* HJFullAnimator.swift */; };
+		9479CD708F056AB8A046E9DC4B8DC114 /* HJFullViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6401B9FAAC96821032837D7C12172B6 /* HJFullViewContainer.swift */; };
+		B9666FECC7B9739807FEB2465AA95338 /* HJFullScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756DB78C4B7CBFFB091F39D42E74C3 /* HJFullScreen-dummy.m */; };
+		C423D9369A585C80E49A2CCF494F6DC1 /* HJFullScreen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F9C48081605B28F270BCBDED8EF68B /* HJFullScreen-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4FAA8E6022EF69EBDED609A4C2538D9 /* Pods-HJFullScreen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD58686A2D314A7190334E0DA0C74D7 /* Pods-HJFullScreen_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		007C876ACD92DEF429C59838A8119780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22655ED14BA78233DEE425FD9E978ADE;
+			remoteInfo = "Pods-HJFullScreen_Example";
+		};
+		788D88498B360227320F791D9535B9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB03B2E97DDCA969E0C8E998193D1C6;
+			remoteInfo = HJFullScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C090E21F85E3B6327020DADA1B9F3CB /* Pods-HJFullScreen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJFullScreen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		12D06FEFB49A585204EC476DC01BFA43 /* Pods-HJFullScreen_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJFullScreen_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14D7CA2FB66AA9991DBD4C36BD39F5E3 /* HJFullAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HJFullAnimator.swift; path = HJFullScreen/Classes/HJFullAnimator.swift; sourceTree = "<group>"; };
+		25BF39D562102AB2CFC050ACC5416A8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2BE7BDAC6FCAFE6C8F06FF2D85CEFCD0 /* Pods-HJFullScreen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJFullScreen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		358F282EA866A54135A59D95E60C4BC5 /* Pods-HJFullScreen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJFullScreen_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		35F57FB5CAD7FDF72C74F8F0B62ADC63 /* HJFullScreen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HJFullScreen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		383333F89DE00C2AFDB199102D4FB466 /* Pods-HJFullScreen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HJFullScreen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CD9411C51E05A3E90EBA19F8DA20406 /* HJFullScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJFullScreen.debug.xcconfig; sourceTree = "<group>"; };
+		45F9678A811443BEADB958B2995F28CF /* Pods-HJFullScreen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJFullScreen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		49046DAB93FC2CC4787DA7B672E1C120 /* Pods-HJFullScreen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HJFullScreen_Example.modulemap"; sourceTree = "<group>"; };
+		6D756DB78C4B7CBFFB091F39D42E74C3 /* HJFullScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJFullScreen-dummy.m"; sourceTree = "<group>"; };
+		87F9C48081605B28F270BCBDED8EF68B /* HJFullScreen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJFullScreen-umbrella.h"; sourceTree = "<group>"; };
+		89004BC4715AE5AD815121529912FB7C /* libPods-HJFullScreen_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HJFullScreen_Example.a"; path = "libPods-HJFullScreen_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95041C6D580DEDDCBA08A6E8D49B6CD0 /* HJFullScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HJFullScreen.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2AC478BA53A28CFB21EC2AF9B790AED /* libPods-HJFullScreen_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HJFullScreen_Tests.a"; path = "libPods-HJFullScreen_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A686664F250B6F49A98F3AD9664B12C7 /* HJFullScreen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HJFullScreen-prefix.pch"; sourceTree = "<group>"; };
+		A7B5B13FD8EC5A6538D0FDFEA3CEDE39 /* Pods-HJFullScreen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HJFullScreen_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB25ABAA6F399FD627EAC5B5A93B5AB3 /* libHJFullScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHJFullScreen.a; path = libHJFullScreen.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B230296E2BEB2867F219178A048F09C2 /* HJFullContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HJFullContentViewController.swift; path = HJFullScreen/Classes/HJFullContentViewController.swift; sourceTree = "<group>"; };
+		BD4AAC4FDF8F575621E73BAE30789F08 /* Pods-HJFullScreen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJFullScreen_Example-dummy.m"; sourceTree = "<group>"; };
+		CA0CEA1CBDA51D0812716E3AE3CDEA10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CA59A5FEE8DE8C31539968B8680D8E39 /* HJFullScreen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HJFullScreen.modulemap; sourceTree = "<group>"; };
+		DFD58686A2D314A7190334E0DA0C74D7 /* Pods-HJFullScreen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HJFullScreen_Tests-dummy.m"; sourceTree = "<group>"; };
+		E7E9CADB40436B573124E48F99B8DE81 /* Pods-HJFullScreen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HJFullScreen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F244CB3779D311C8A2BCA1292A6ABAF8 /* Pods-HJFullScreen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HJFullScreen_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F6401B9FAAC96821032837D7C12172B6 /* HJFullViewContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HJFullViewContainer.swift; path = HJFullScreen/Classes/HJFullViewContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FDC96E07FA93D462BCFC7FA2AC9928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0408EA522F86C1C8EAAAE5CB9BE01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DC84CE6CBCED836D055B5E369DC500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D939B99E10B838FE54D8000C34E0686 /* Pods-HJFullScreen_Example */ = {
+			isa = PBXGroup;
+			children = (
+				49046DAB93FC2CC4787DA7B672E1C120 /* Pods-HJFullScreen_Example.modulemap */,
+				E7E9CADB40436B573124E48F99B8DE81 /* Pods-HJFullScreen_Example-acknowledgements.markdown */,
+				0C090E21F85E3B6327020DADA1B9F3CB /* Pods-HJFullScreen_Example-acknowledgements.plist */,
+				BD4AAC4FDF8F575621E73BAE30789F08 /* Pods-HJFullScreen_Example-dummy.m */,
+				A7B5B13FD8EC5A6538D0FDFEA3CEDE39 /* Pods-HJFullScreen_Example-umbrella.h */,
+				F244CB3779D311C8A2BCA1292A6ABAF8 /* Pods-HJFullScreen_Example.debug.xcconfig */,
+				45F9678A811443BEADB958B2995F28CF /* Pods-HJFullScreen_Example.release.xcconfig */,
+			);
+			name = "Pods-HJFullScreen_Example";
+			path = "Target Support Files/Pods-HJFullScreen_Example";
+			sourceTree = "<group>";
+		};
+		383A6F5143555A0A6415C673A2A0209F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB25ABAA6F399FD627EAC5B5A93B5AB3 /* libHJFullScreen.a */,
+				89004BC4715AE5AD815121529912FB7C /* libPods-HJFullScreen_Example.a */,
+				A2AC478BA53A28CFB21EC2AF9B790AED /* libPods-HJFullScreen_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E528D3B0B5B1962238F6B9C629E8E0D /* HJFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				14D7CA2FB66AA9991DBD4C36BD39F5E3 /* HJFullAnimator.swift */,
+				B230296E2BEB2867F219178A048F09C2 /* HJFullContentViewController.swift */,
+				F6401B9FAAC96821032837D7C12172B6 /* HJFullViewContainer.swift */,
+				FC8FB6735A220B8F183FD0ABFA00947A /* Pod */,
+				C4D17283E8BBFBC2A90E6012917C3C99 /* Support Files */,
+			);
+			name = HJFullScreen;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F4BF505FC4EF105BA60998F39354203 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D939B99E10B838FE54D8000C34E0686 /* Pods-HJFullScreen_Example */,
+				B6943E7CDD87BF7D67183E01817BFEE3 /* Pods-HJFullScreen_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B6F3AC5A2D16F77B37C150259E04EA8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E528D3B0B5B1962238F6B9C629E8E0D /* HJFullScreen */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B6943E7CDD87BF7D67183E01817BFEE3 /* Pods-HJFullScreen_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				12D06FEFB49A585204EC476DC01BFA43 /* Pods-HJFullScreen_Tests-acknowledgements.markdown */,
+				383333F89DE00C2AFDB199102D4FB466 /* Pods-HJFullScreen_Tests-acknowledgements.plist */,
+				DFD58686A2D314A7190334E0DA0C74D7 /* Pods-HJFullScreen_Tests-dummy.m */,
+				2BE7BDAC6FCAFE6C8F06FF2D85CEFCD0 /* Pods-HJFullScreen_Tests.debug.xcconfig */,
+				358F282EA866A54135A59D95E60C4BC5 /* Pods-HJFullScreen_Tests.release.xcconfig */,
+			);
+			name = "Pods-HJFullScreen_Tests";
+			path = "Target Support Files/Pods-HJFullScreen_Tests";
+			sourceTree = "<group>";
+		};
+		C4D17283E8BBFBC2A90E6012917C3C99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA59A5FEE8DE8C31539968B8680D8E39 /* HJFullScreen.modulemap */,
+				6D756DB78C4B7CBFFB091F39D42E74C3 /* HJFullScreen-dummy.m */,
+				A686664F250B6F49A98F3AD9664B12C7 /* HJFullScreen-prefix.pch */,
+				87F9C48081605B28F270BCBDED8EF68B /* HJFullScreen-umbrella.h */,
+				3CD9411C51E05A3E90EBA19F8DA20406 /* HJFullScreen.debug.xcconfig */,
+				95041C6D580DEDDCBA08A6E8D49B6CD0 /* HJFullScreen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HJFullScreen";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8B6F3AC5A2D16F77B37C150259E04EA8 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				383A6F5143555A0A6415C673A2A0209F /* Products */,
+				6F4BF505FC4EF105BA60998F39354203 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC8FB6735A220B8F183FD0ABFA00947A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				35F57FB5CAD7FDF72C74F8F0B62ADC63 /* HJFullScreen.podspec */,
+				25BF39D562102AB2CFC050ACC5416A8B /* LICENSE */,
+				CA0CEA1CBDA51D0812716E3AE3CDEA10 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12BA35C5F78E886191206DB3B46F2AC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90F2C444EFC3CF6CFC794C0928956316 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BACC2FD9944AA9DE4BAB82AF3D203DB /* Pods-HJFullScreen_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D31CB75F8780E87737F8E1861862B9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C423D9369A585C80E49A2CCF494F6DC1 /* HJFullScreen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22655ED14BA78233DEE425FD9E978ADE /* Pods-HJFullScreen_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8017FBACAA6D880D3B10723CD69670D4 /* Build configuration list for PBXNativeTarget "Pods-HJFullScreen_Example" */;
+			buildPhases = (
+				90F2C444EFC3CF6CFC794C0928956316 /* Headers */,
+				17F222966BC0A7DBE4E34E96FF3D2324 /* Sources */,
+				8B0408EA522F86C1C8EAAAE5CB9BE01A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29BA36E416008C122B079E4BEAEC2B04 /* PBXTargetDependency */,
+			);
+			name = "Pods-HJFullScreen_Example";
+			productName = "Pods-HJFullScreen_Example";
+			productReference = 89004BC4715AE5AD815121529912FB7C /* libPods-HJFullScreen_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2DB03B2E97DDCA969E0C8E998193D1C6 /* HJFullScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1412BEC791B7C1964B103C548007BCAB /* Build configuration list for PBXNativeTarget "HJFullScreen" */;
+			buildPhases = (
+				9D31CB75F8780E87737F8E1861862B9D /* Headers */,
+				60C11A927CA1ED82966E4E7C9CB9BF46 /* Sources */,
+				6FDC96E07FA93D462BCFC7FA2AC9928D /* Frameworks */,
+				A2566BFC5501517380A46D78250FBC5F /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJFullScreen;
+			productName = HJFullScreen;
+			productReference = AB25ABAA6F399FD627EAC5B5A93B5AB3 /* libHJFullScreen.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4710C328A515EBC0C5293D01280BEF2E /* Pods-HJFullScreen_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB980D54DE24185987B187B353D5D527 /* Build configuration list for PBXNativeTarget "Pods-HJFullScreen_Tests" */;
+			buildPhases = (
+				12BA35C5F78E886191206DB3B46F2AC8 /* Headers */,
+				BFD3D60B0A1796F47D04CE3915A757BF /* Sources */,
+				F4DC84CE6CBCED836D055B5E369DC500 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A604ED7A34C06C22D884A1ECBE5187 /* PBXTargetDependency */,
+			);
+			name = "Pods-HJFullScreen_Tests";
+			productName = "Pods-HJFullScreen_Tests";
+			productReference = A2AC478BA53A28CFB21EC2AF9B790AED /* libPods-HJFullScreen_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 383A6F5143555A0A6415C673A2A0209F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DB03B2E97DDCA969E0C8E998193D1C6 /* HJFullScreen */,
+				22655ED14BA78233DEE425FD9E978ADE /* Pods-HJFullScreen_Example */,
+				4710C328A515EBC0C5293D01280BEF2E /* Pods-HJFullScreen_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2566BFC5501517380A46D78250FBC5F /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/HJFullScreen/HJFullScreen.modulemap",
+				"${PODS_ROOT}/Headers/Public/HJFullScreen/HJFullScreen-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/HJFullScreen-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/HJFullScreen/HJFullScreen.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/HJFullScreen/HJFullScreen-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17F222966BC0A7DBE4E34E96FF3D2324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F0FBE5D74414F1FF9834CE50DB2D67 /* Pods-HJFullScreen_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C11A927CA1ED82966E4E7C9CB9BF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6920F1622FD526CA66D0C353D05A8ABD /* HJFullAnimator.swift in Sources */,
+				43A6CF03F351CF85A12EA2F33FC4D4C8 /* HJFullContentViewController.swift in Sources */,
+				B9666FECC7B9739807FEB2465AA95338 /* HJFullScreen-dummy.m in Sources */,
+				9479CD708F056AB8A046E9DC4B8DC114 /* HJFullViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD3D60B0A1796F47D04CE3915A757BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FAA8E6022EF69EBDED609A4C2538D9 /* Pods-HJFullScreen_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A604ED7A34C06C22D884A1ECBE5187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HJFullScreen_Example";
+			target = 22655ED14BA78233DEE425FD9E978ADE /* Pods-HJFullScreen_Example */;
+			targetProxy = 007C876ACD92DEF429C59838A8119780 /* PBXContainerItemProxy */;
+		};
+		29BA36E416008C122B079E4BEAEC2B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HJFullScreen;
+			target = 2DB03B2E97DDCA969E0C8E998193D1C6 /* HJFullScreen */;
+			targetProxy = 788D88498B360227320F791D9535B9AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23341CB73BCB04744F9EF6851BA4CD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE7BDAC6FCAFE6C8F06FF2D85CEFCD0 /* Pods-HJFullScreen_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2AA3B4525FD0A7274D8C49AE483CADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F244CB3779D311C8A2BCA1292A6ABAF8 /* Pods-HJFullScreen_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HJFullScreen_Example/Pods-HJFullScreen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		481381EE15C0D9B2C2096941438248EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F9678A811443BEADB958B2995F28CF /* Pods-HJFullScreen_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HJFullScreen_Example/Pods-HJFullScreen_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5655FD5BF1488A413D1B6AA6EDE194E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD9411C51E05A3E90EBA19F8DA20406 /* HJFullScreen.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HJFullScreen/HJFullScreen-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/HJFullScreen/HJFullScreen.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HJFullScreen;
+				PRODUCT_NAME = HJFullScreen;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD53A41E2ED4B65FE18761D4E628E5C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95041C6D580DEDDCBA08A6E8D49B6CD0 /* HJFullScreen.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HJFullScreen/HJFullScreen-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/HJFullScreen/HJFullScreen.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HJFullScreen;
+				PRODUCT_NAME = HJFullScreen;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA823EE16E3D18EAB64F461BC2F21C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358F282EA866A54135A59D95E60C4BC5 /* Pods-HJFullScreen_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1412BEC791B7C1964B103C548007BCAB /* Build configuration list for PBXNativeTarget "HJFullScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5655FD5BF1488A413D1B6AA6EDE194E7 /* Debug */,
+				CD53A41E2ED4B65FE18761D4E628E5C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8017FBACAA6D880D3B10723CD69670D4 /* Build configuration list for PBXNativeTarget "Pods-HJFullScreen_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA3B4525FD0A7274D8C49AE483CADAC /* Debug */,
+				481381EE15C0D9B2C2096941438248EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB980D54DE24185987B187B353D5D527 /* Build configuration list for PBXNativeTarget "Pods-HJFullScreen_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23341CB73BCB04744F9EF6851BA4CD13 /* Debug */,
+				EA823EE16E3D18EAB64F461BC2F21C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
