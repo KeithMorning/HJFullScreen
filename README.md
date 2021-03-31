@@ -26,6 +26,18 @@ let vc = CustomViewController() //neet override the supportedInterfaceOrientatio
 self.contentView.fullScreen(fullScreenVc: fullscreenVc) {} 
 ```
 
+If you want to custom the palyerView on the fullScreenVc's location, you can make the fullScreenVc implete the protocol  `HJFullScreenAction`
+
+```
+/// in fullScreenVc wirte this code
+
+func addTageToView(target: UIView) {
+    self.view.addSubview(target)
+    self.view.sendSubview(toBack: target)
+}
+
+```
+
 ## Requirements
 
 ## Installation
